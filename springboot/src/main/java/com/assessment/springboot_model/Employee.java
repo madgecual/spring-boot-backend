@@ -93,4 +93,10 @@ public class Employee {
 		this.phoneNo = phoneNo;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [fname=" + fname + ", lname=" + lname + ", email=" + email + ", bday=" + bday + ", phoneNo="
+				+ phoneNo + ", acctNo=" + acctNo + "]";
+	}
+
 }

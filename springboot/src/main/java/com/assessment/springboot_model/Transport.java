@@ -54,4 +54,10 @@ public class Transport {
 		this.driverLname = driverLname;
 	}
 
+	@Override
+	public String toString() {
+		return "Transport [carPlate=" + carPlate + ", driverFname=" + driverFname + ", driverLname=" + driverLname
+				+ "]";
+	}
+
 }

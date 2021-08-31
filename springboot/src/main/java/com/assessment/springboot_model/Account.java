@@ -69,4 +69,9 @@ public class Account {
 	public void setRole(Boolean role) {
 		this.role = role;
 	}
+
+	@Override
+	public String toString() {
+		return "Account [uname=" + uname + ", pass=" + pass + ", role=" + role + "]";
+	}
 }
